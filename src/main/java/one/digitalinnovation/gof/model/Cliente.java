@@ -1,12 +1,14 @@
 package one.digitalinnovation.gof.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 @Entity
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @NotBlank
     private String nome;
     @ManyToOne
     private Endereco endereco;
