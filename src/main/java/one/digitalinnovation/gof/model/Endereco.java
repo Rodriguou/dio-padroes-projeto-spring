@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
  * Os atributos deste modelo foram gerados automaticamente pelo site jsonschema2pojo.org. Para isso, usamos o JSON retornado pela API ViaCEP.
  *
  * @see <a href="https://www.jsonschema2pojo.org/">jsonschema2pojo.org</a>
- * @see <a href="https://viacep.com.br/">ViaCEP/</a>
+ * @see <a href="https://viacep.com.br/">ViaCEP</a>
  *
  * @author Rodrigo
  */
